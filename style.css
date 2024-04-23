@@ -1,0 +1,115 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* header section */
+.logo{
+  width:150px;
+}
+
+.link{
+  width: 100%;
+  background-color: black;
+  margin-bottom: 10px;
+}
+a{
+  color:white;
+  text-decoration: none;
+  padding:0 20px 0 10px; 
+}
+a:hover{
+  color: lightblue;
+}
+
+
+
+/*  home page main content section */
+.home{
+  width: 100%;
+  padding-top: 20px;
+}
+/* product page main content */
+
+.product_s{
+  float:left;
+  display: inline;
+  width:100%;
+  text-align: center;
+  padding-left:8%;
+}
+.product_img{
+  float: left;
+  width:20%;
+  padding:5px;
+}
+/* services page main content */
+h2{
+  text-decoration: underline;
+}
+.services_main{
+ padding-left:45%;
+ padding-bottom: 10px;
+}
+table,tr,td{
+  text-align: left;
+}
+/* About Us page main cintent */
+.about_us{
+  width: 35%;
+  padding-left: 30%;
+ }
+.first_paragraph{
+  text-align: left;
+  
+}
+.second_paragraph{
+  text-align: center;
+}
+/* contact page main content */
+.contact_div{
+  display: inline-block;
+  padding-left: 20px;
+}
+.social{
+  width: 75%;
+  padding-left: 20%;
+  margin-bottom: -10px;
+}
+/* feedback page main content */
+.feedback{
+  padding-left:10%;
+}
+
+
+/* footer section */
+h3{
+  color:white;
+}
+.footer{
+  width: 100%;
+  float:left;
+  display: inline;
+  background-color: black;
+}
+  .products{
+    text-align: center;
+    float:left;
+    width:35%;
+    height: 150px;
+    background-color: black;
+  }
+.services{
+  text-align: center;
+  float:left;
+  width:30%;
+  height: 150px;
+  background-color: black;
+  
+}
+.contact{
+  text-align:center;
+  width:35%;
+  float:left;
+  background-color: black;
+  height: 150px;
+}
